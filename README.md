@@ -27,9 +27,9 @@ Olmsted, David L., Stephen M. Foiles, and Elizabeth A. Holm. "Survey of computed
 
 Written in MATLAB and/or Python: 
 
-Example 1: 
+Example 1: <br/>
 Compute the symmetrized GB octonion distance for a pair of grain boundaries with arbitrary point group symmetry
 
-Example 2: 
+Example 2: <br/>
 Compute a pairwise distance matrix for a grain boundary dataset
 

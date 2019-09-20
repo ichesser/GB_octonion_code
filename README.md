@@ -1,10 +1,8 @@
 # GB_octonion_code
 
-This repository contains a set of tutorials for grain boundary octonion computations to accompany the paper: 
+This repository contains a set of tutorials for grain boundary octonion computations to accompany the papers: 
 
 [Submitted] Chesser, I., Francis, T., De Graef, M., & Holm, E. A. (2019). Learning the grain boundary manifold: tools for grain boundary data representation and visualization. *Acta Materialia*. 
-
-Please also cite
 
 Francis, Toby, et al. "A geodesic octonion metric for grain boundaries." *Acta Materialia* 166 (2019): 135-147.
 

@@ -11,7 +11,7 @@ High performance octonion computations have been implemented in [EMsoft](https:/
 
 # Data
 
-The primary dataset for paper 1 is the canonical Olmsted dataset: 
+The primary dataset for paper 1 is the canonical Olmsted dataset (388 grain boundaries): 
 
 Olmsted, David L., Stephen M. Foiles, and Elizabeth A. Holm. "Survey of computed grain boundary properties in face-centered cubic metals: I. Grain boundary energy." *Acta Materialia* 57.13 (2009): 3694-3703.
 

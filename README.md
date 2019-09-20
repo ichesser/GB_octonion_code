@@ -15,6 +15,8 @@ The primary dataset for paper 1 is the canonical Olmsted dataset (388 grain boun
 
 Olmsted, David L., Stephen M. Foiles, and Elizabeth A. Holm. "Survey of computed grain boundary properties in face-centered cubic metals: I. Grain boundary energy." *Acta Materialia* 57.13 (2009): 3694-3703.
 
+The following relevant files are found in the Data directory: 
+
 **olmsted_xstal_info.csv**: consolidates crystallographic info, including grain orientations, CSL/DSC lattice vectors
 
 **olm_properties.txt**: GB energy Ni ($J/m^2$), energy Al , mobility Ni $m/(s GPa)$, dissipation energy Ni (eV/atom)

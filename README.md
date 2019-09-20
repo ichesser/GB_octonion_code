@@ -6,9 +6,11 @@ This repository contains a set of tutorials for grain boundary octonion computat
 
 High performance octonion computations have been implemented in [EMsoft](https://github.com/EMsoft-org/EMsoft)
 
+The theory for GB octonions was developed in
 
+Francis, Toby, et al. "A geodesic octonion metric for grain boundaries." Acta Materialia 166 (2019): 135-147.
 
-# Dataset 
+# Data
 
 The starting point for this work is analysis of the Olmsted dataset: 
 
@@ -21,3 +23,9 @@ Olmsted, David L., Stephen M. Foiles, and Elizabeth A. Holm. "Survey of computed
 **olm_octonion_list.txt**: octonions corresponding to GBs in Olmsted dataset with BP along z
 
 **olm_pairwise_distances_cubic.txt**: pairwise distance matrix for Olmsted dataset, cubic (432) symmetry applied
+
+# Tutorial Code
+
+MATLAB and Python routines
+
+Example 1: compute GB octonion distance 

@@ -4,6 +4,9 @@ This repository contains a set of tutorials for grain boundary octonion computat
 
 [Submitted] Chesser, I., Francis, T., De Graef, M., & Holm, E. A. (2019). Learning the grain boundary manifold: tools for grain boundary data representation and visualization. *Acta Materialia*. 
 
+High performance octonion computations have been implemented in [EMsoft]https://github.com/EMsoft-org/EMsoft
+
+
 
 # Dataset 
 

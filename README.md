@@ -16,7 +16,7 @@ Olmsted, David L., Stephen M. Foiles, and Elizabeth A. Holm. "Survey of computed
 
 **olmsted_xstal_info.csv**: consolidates crystallographic info, including grain orientations, CSL/DSC lattice vectors
 
-**olm_properties.txt**: energy Ni (J/m^2), energy Al , mobility Ni m/(s GPa), dissipation energy Ni (eV/atom)
+**olm_properties.txt**: GB energy Ni ($J/m^2$), energy Al , mobility Ni $m/(s GPa)$, dissipation energy Ni (eV/atom)
 
 **olm_octonion_list.txt**: octonions corresponding to GBs in Olmsted dataset with BP along z
 

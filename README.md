@@ -11,7 +11,7 @@ High performance octonion computations have been implemented in [EMsoft](https:/
 
 # Data
 
-The starting point for this work is analysis of the Olmsted dataset: 
+The starting point for paper 1 is analysis of the Olmsted dataset: 
 
 Olmsted, David L., Stephen M. Foiles, and Elizabeth A. Holm. "Survey of computed grain boundary properties in face-centered cubic metals: I. Grain boundary energy." *Acta Materialia* 57.13 (2009): 3694-3703.
 

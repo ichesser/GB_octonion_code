@@ -9,7 +9,7 @@ This repository contains a set of tutorials for grain boundary octonion computat
 High performance octonion computations have been implemented in [EMsoft](https://github.com/EMsoft-org/EMsoft)
 
 
-# Data
+# GB Data
 
 The primary dataset for paper 1 is the canonical Olmsted dataset consisting of GB crystallography data for 388 GBs in metals with cubic point group symmetry. Grain boundary energy and mobility values were computed for each structure using the Foiles-Hoyt FCC Ni EAM  potential. 
 

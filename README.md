@@ -19,7 +19,7 @@ Olmsted, David L., Stephen M. Foiles, and Elizabeth A. Holm. "Survey of computed
 
 **olm_properties.txt**: GB energy Ni ($J/m^2$), energy Al , mobility Ni $m/(s GPa)$, dissipation energy Ni (eV/atom)
 
-**olm_octonion_list.txt**: octonions corresponding to GBs in Olmsted dataset with BP along z
+**olm_octonion_list.txt**: octonions corresponding to GBs in Olmsted dataset with BP rotated to lie along z direction
 
 **olm_pairwise_distances_cubic.txt**: pairwise distance matrix for Olmsted dataset, cubic (432) symmetry applied
 

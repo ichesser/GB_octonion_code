@@ -11,11 +11,11 @@ High performance octonion computations have been implemented in [EMsoft](https:/
 
 # Data
 
-The primary dataset for paper 1 is the canonical Olmsted dataset consisting of GB crystallography data for 388 GBs in metals with cubic point group symmetry. Grain boundary energy and mobility values were computed for each structure using the Foiles-Hoyt FCC Ni EAM  potential
+The primary dataset for paper 1 is the canonical Olmsted dataset consisting of GB crystallography data for 388 GBs in metals with cubic point group symmetry. Grain boundary energy and mobility values were computed for each structure using the Foiles-Hoyt FCC Ni EAM  potential. 
 
-Olmsted, David L., Stephen M. Foiles, and Elizabeth A. Holm. "Survey of computed grain boundary properties in face-centered cubic metals: I. Grain boundary energy." *Acta Materialia* 57.13 (2009): 3694-3703.
+3. Olmsted, David L., Stephen M. Foiles, and Elizabeth A. Holm. "Survey of computed grain boundary properties in face-centered cubic metals: I. Grain boundary energy." *Acta Materialia* 57.13 (2009): 3694-3703.
 
-Olmsted, David L., Elizabeth A. Holm, and Stephen M. Foiles. "Survey of computed grain boundary properties in face-centered cubic metals—II: Grain boundary mobility." *Acta Materialia* 57.13 (2009): 3704-3713.
+4. Olmsted, David L., Elizabeth A. Holm, and Stephen M. Foiles. "Survey of computed grain boundary properties in face-centered cubic metals—II: Grain boundary mobility." *Acta Materialia* 57.13 (2009): 3704-3713.
 
 
 The following relevant files are found in the Data directory: 

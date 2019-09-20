@@ -25,6 +25,6 @@ Olmsted, David L., Stephen M. Foiles, and Elizabeth A. Holm. "Survey of computed
 
 # Tutorial Code
 
-Written in MATLAB and Python: 
+Written in MATLAB and/or Python: 
 
 Example 1: compute GB octonion distance 

@@ -32,6 +32,11 @@ The following relevant files are found in the Data directory:
 
 Written in MATLAB and/or Python: 
 
+**Example 0**: <br/>
+Convert traditional grain boundary representations to the grain boundary octonion (GBO) representation. 
+(M,n) --> octonion
+(O1,O2) --> octonion 
+
 **Example 1**: <br/>
 Compute the symmetrized GB octonion distance for a pair of grain boundaries with arbitrary point group symmetry
 

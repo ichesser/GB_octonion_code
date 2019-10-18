@@ -1,9 +1,11 @@
 function [Theta,R] = stereo(aa)
-%Stereographic projection 
-% INPUT: n x 3 matrix, each row is a unit vector [ax ay az]
+%Stereographic projection of rotation axes
+% n x 3 matrix, columns are unit vectors [ax ay az]
 n = length(aa(:,1));
+% r = zeros(1,n);
 R = zeros(1,n);
 Theta = zeros(1,n);
+%Phi = zeros(1,n);
 
 for i = 1:n
     a = aa(i,1:3);
@@ -19,6 +21,23 @@ end
 
 R(isnan(R)) = 0;
 Theta(isnan(Theta)) = 0;
+% 
+% figure
+% pax = polaraxes;
+% polarscatter(Theta,R)
+% title('stereographic projection of rotation axes')
+% pax.ThetaLim = [0 90];
+% pax.RLim = [0 2];
+% 
+% figure
+% polarhistogram(Theta)
+% 
+% figure
+% histogram(R)
+% figure
+% histogram2(Theta,R)
+% xlabel('Theta')
+% ylabel('R')
 
 end
 

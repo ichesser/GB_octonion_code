@@ -8,9 +8,13 @@ function o = GBmat2oct(OA1,OB1)
 
 % o, grain boundary octonion expressed in boundary plane reference frame
 OA = normr(OA1')'; OB = normr(OB1')';
+% disp(OA)
+% disp(OB)
 %quaternions representing grain orientations in crystal frame, BP along z
 pA = om2qu(OA); nA = OA(:,3)';
 pB = om2qu(OB); nB = OB(:,3)';
+% disp(pA)
+% disp(pB)
 
 %transform BP vectors from crystal frames into sample frame 
 mA0 = qmult(qinv(pA),qmult([0 nA],(pA))); mA = mA0(2:4);

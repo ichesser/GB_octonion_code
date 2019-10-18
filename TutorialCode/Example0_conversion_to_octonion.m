@@ -58,7 +58,7 @@ pgnum = 30;
 disp('minimizing U(1) angle (degrees):')
 disp(rad2deg(zeta_min))
 
-disp('minimizing GBOM angle:')
+disp('minimizing GBOM angle (degrees):')
 disp(rad2deg(Omega_ex2))
 
 %% Example 3: conversion of orientation matrices to octonion
@@ -75,7 +75,7 @@ feature_names = olmimp.textdata;
 O1mat = olmx(:,[5:7 11:13 17:19]);
 O2mat = olmx(:,[8:10 14:16 20:22]);
 
-octlist = zeros(1,ngb);
+octlist = zeros(ngb,8);
 for i = 1:ngb
     % O1 and O2 should have hkl directions along columns (x,y,z)
     O1 = reshape(O1mat(i,:),[3,3]);
@@ -91,15 +91,17 @@ for i = 1:ngb
     octlist(i,:) = oct;
 end
 
-%%%%%%%% To output to a list, uncomment below %%%%%%%
+disp([num2str(ngb),' GBs converted to octonions'])
+
+%%%%%%%% To output octonions to a text file, uncomment below %%%%%%%
 
 % format long
 % 
-% fname = 'Olmsted_oct.txt';
+% fname = 'olmsted_octonions.txt';
 % fID = fopen(fname,'w');
 % fprintf(fID,'oct \n');
 % fprintf(fID,[num2str(ngb),' \n']);
-% fprintf(fID,'%6.8f %6.8f %6.8f %6.8f %6.8f %6.8f %6.8f %6.8f \n', olm_oct');
+% fprintf(fID,'%6.8f %6.8f %6.8f %6.8f %6.8f %6.8f %6.8f %6.8f \n', octlist');
 
 
 

@@ -6,7 +6,7 @@ This repository contains a set of tutorials for grain boundary octonion computat
 
 2. Francis, Toby, et al. "[A geodesic octonion metric for grain boundaries](https://www.sciencedirect.com/science/article/abs/pii/S1359645418309844)." *Acta Materialia* 166 (2019): 135-147.
 
-High performance octonion computations have been implemented in [EMsoft](https://github.com/EMsoft-org/EMsoft)
+High performance octonion computations have been implemented in [EMSoft](https://github.com/EMsoft-org/EMsoft)
 
 
 # GB Data

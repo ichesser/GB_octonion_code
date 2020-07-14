@@ -49,4 +49,4 @@ Interpolate between two GBs along geodesic
 # Visualization 
 The OVITO directory contains coordinates of GBs consistent with 3D visualizations in [1]
 
-Visualizations of geodesic interpolation come from POV-ray script generator in [EMSoft](https://github.com/EMsoft-org/EMsoft/tree/develop/Source/GBs) 
+Visualizations of geodesic interpolation come from POV-ray script generator in [EMSoft](https://github.com/EMsoft-org/EMsoft/tree/develop/Source/GBs) function EMoSLERP.  

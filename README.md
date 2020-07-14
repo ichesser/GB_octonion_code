@@ -34,8 +34,8 @@ Written in MATLAB:
 
 **Example 0**: <br/>
 Convert traditional grain boundary representations to the grain boundary octonion (GBO) representation. 
-(M,n) --> octonion
-(O1,O2) --> octonion 
+(M,n) --> octonion <br/>
+(O1,O2) --> octonion <br/>
 
 **Example 1**: <br/>
 Compute the symmetrized GB octonion distance for a pair of grain boundaries with arbitrary point group symmetry

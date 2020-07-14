@@ -46,3 +46,5 @@ Compute a pairwise distance matrix for a grain boundary dataset
 **Example 3**: <br/> 
 Interpolate between two GBs along geodesic
 
+# Visualization 
+The OVITO directory contains coordinates of GBs consistent with 3D visualizations in [1]

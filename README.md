@@ -22,7 +22,7 @@ The following relevant files are found in the Data directory:
 
 **olmsted_xstal_info.csv**: consolidates crystallographic info, including grain orientations, CSL/DSC lattice vectors
 
-**olm_properties.txt**: GB energy Ni ($J/m^2$), energy Al , mobility Ni $m/(s GPa)$, dissipation energy Ni (eV/atom)
+**olm_properties.txt**: GB energy Ni ($J/m^2$), energy Al , mobility Ni $m/(s GPa)$, critical driving force Ni (eV/atom)
 
 **olm_octonion_list.txt**: octonions corresponding to GBs in Olmsted dataset with BP rotated to lie along z direction
 
@@ -30,7 +30,7 @@ The following relevant files are found in the Data directory:
 
 # Tutorial Code
 
-Written in MATLAB and/or Python: 
+Written in MATLAB: 
 
 **Example 0**: <br/>
 Convert traditional grain boundary representations to the grain boundary octonion (GBO) representation. 
@@ -42,4 +42,7 @@ Compute the symmetrized GB octonion distance for a pair of grain boundaries with
 
 **Example 2**: <br/>
 Compute a pairwise distance matrix for a grain boundary dataset
+
+**Example 3**: <br/> 
+Interpolate between two GBs along geodesic
 

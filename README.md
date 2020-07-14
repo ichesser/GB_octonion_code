@@ -4,7 +4,7 @@ This repository contains a set of tutorials for grain boundary octonion computat
 
 1. Chesser, I., Francis, T., De Graef, M., & Holm, E. A. "[Learning the grain boundary manifold: tools for visualizing and fitting grain boundary properties](https://www.sciencedirect.com/science/article/pii/S1359645420303633?casa_token=XinNAgHJfhkAAAAA:tqFRNwjk3TLPngrylMfXQmJn6kFkNnBiSuriA9ccH_6q64OORQuFYN4T7rphIXEFAStHt-8mwR4)." Acta Materialia (2020).
 
-2. Francis, Toby, et al. "[A geodesic octonion metric for grain boundaries](https://www.sciencedirect.com/science/article/abs/pii/S1359645418309844)." *Acta Materialia* 166 (2019): 135-147.
+2. Francis, Toby, et al. "[A geodesic octonion metric for grain boundaries](https://www.sciencedirect.com/science/article/abs/pii/S1359645418309844)." *Acta Materialia* 166 (2019).
 
 High performance octonion computations have been implemented in [EMSoft](https://github.com/EMsoft-org/EMsoft/tree/develop/Source/GBs) 
 

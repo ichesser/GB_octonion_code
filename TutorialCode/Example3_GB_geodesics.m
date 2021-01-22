@@ -4,6 +4,9 @@ addpath([fileparts(pwd),'/Data']) %add Data directory to path
 addpath('crystal_symmetry_ops')
 addpath('octonion_functions/')
 addpath('rotation_conversions/')
+global epsijk 
+epsijk = 1; % Global choice (+/-1) for consistency of internal rotation representations: see https://iopscience.iop.org/article/10.1088/0965-0393/23/8/083501
+
 
 %% PROBLEM: interpolate between two grain boundaries along geodesic
 

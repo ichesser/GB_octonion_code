@@ -6,6 +6,10 @@ addpath('crystal_symmetry_ops')
 addpath('octonion_functions/')
 addpath('rotation_conversions/')
 
+global epsijk 
+epsijk = 1; % Global choice (+/-1) for consistency of internal rotation representations: see https://iopscience.iop.org/article/10.1088/0965-0393/23/8/083501
+
+
 %% PROBLEM 0: converting GB's from conventional representations to octonion representation 
 
 % IMPORTANT: By convention, the GB plane normal needs to fall along the z direction 
@@ -94,10 +98,10 @@ end
 disp([num2str(ngb),' GBs converted to octonions'])
 
 %%%%%%%% To output octonions to a text file, uncomment below %%%%%%%
-
+%%
 % format long
 % 
-% fname = 'olmsted_octonions.txt';
+% fname = 'olmsted_octonions_test.txt';
 % fID = fopen(fname,'w');
 % fprintf(fID,'oct \n');
 % fprintf(fID,[num2str(ngb),' \n']);
